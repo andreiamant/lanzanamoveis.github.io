@@ -1,0 +1,65 @@
+.nav{
+    background: transparent;
+    
+}
+/* Inicio jumbotron */
+.jumbotron {
+    background: url("https://images7.alphacoders.com/606/thumb-1920-606900.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height: 125vh;
+    overflow: hidden;
+    color: #eee;
+    margin-top: -245px
+}
+.jumbotron h1{
+
+margin-top: 45vh;
+}
+
+@media (min-width:320px) { 
+    .jumbotron{ height: 112vh;
+    background-size: cover;; }
+}
+@media (min-width:480px) {
+    .jumbotron{ height: 122vh; }
+}
+@media only screen and (min-width: 1200px) {
+    .jumbotron{ height: 126vh; }
+}
+@media only screen and (min-width: 1366px) {
+    .jumbotron{ height: 126vh; }
+}
+/* Fim jumbotron */
+
+/* Serviços */
+.service-list{
+	padding:0 0 0 0;
+	font-size:12px;
+	margin-bottom:40px;
+}
+.service-list-col1{
+	float:left;
+	width:60px;
+}
+.service-list-col1 i{
+	font-style:normal;
+	font-size:38px;
+	display:block;
+	color:#222;
+	line-height:38px;
+}
+.service-list-col2{
+	overflow:hidden;	
+}
+.main-section.alabaster{
+	background: black;
+
+}
+.imgservice{
+    width: 100%;
+}
+
+
+/* Fim dos Serviços */
